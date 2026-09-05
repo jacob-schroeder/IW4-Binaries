@@ -19,13 +19,17 @@ This default_mp.self is a modified version of TU 1.14.
 
 ## Mod Loader
 This is still a work in progress but I wanted a way to automatically load custom user maps (or any fastfile really).
+
 The binary checks it's executing directory for a "mods" folder (all lowercase).
+
 Any user map fastfile/imagefile located in that directory can be loaded from the game engine.
 
 An example setup would look like:
-> /dev_hdd0/game/BLUS30377/usdir/mods/imagefile7.pak
-> /dev_hdd0/game/BLUS30377/usdir/mods/mp_shipment_xmas.ff
-> /dev_hdd0/game/BLUS30377/usdir/mods/mp_shipment_xmas_load.ff
+```
+/dev_hdd0/game/BLUS30377/usdir/mods/imagefile7.pak
+/dev_hdd0/game/BLUS30377/usdir/mods/mp_shipment_xmas.ff
+/dev_hdd0/game/BLUS30377/usdir/mods/mp_shipment_xmas_load.ff
+```
 
 Then you can load the map with either a modified menuDef asset (see IW4Studio) or by setDvar ui_mapname "mp_shipment_xmas".
 
@@ -40,7 +44,7 @@ This release includes several rounds of protection against malicious network tra
 - **Protection against forced match disruption.** Non-host players cannot abuse the patched end-match menu actions or force an active host onto the host-migration screen.
 - **Compatibility preserved.** Weapon validation follows the current weapon registry, including custom weapons. The migration fix retains the existing path for genuine host handoffs.
 
-TCFW and HEN releases are available for all seven supported regions.
+CFW and HEN releases are available for all seven supported regions.
 
 ## Technical analysis — developers and reverse engineers
 
