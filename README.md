@@ -1,15 +1,20 @@
 # Multiplayer Patch
+> Version 2.3
 This default_mp.self is a modified version of TU 1.14.
 
 ## How to use
-Simply replace default_mp.self in your game update directory (usdir) with your regions binary.
-Make sure to use either CFW or HEN depending on your PS3 FW setup.
+- Navigate to the release folder and select your region.
+- Then download either a CFW or HEN version of the binary.
+- Place the downloaded default_mp.self in your game update directory.
+> /dev_hdd0/game/{region}/usdir/default_mp.self
+- That's it!
 
 ## Features
-- includes native gsc parsing, compilation and linking for TU 1.14.
+- Supports online play
+- Native .gsc parsing, linking and compilation
 - resolves a bug where PSN accounts created after or changed after 2018 were not syncing stats with the Activision DemonWare server.
-- resolves a RCE exploit with MSG_ReadBitsCompressed (both host and client are protected)
 - supports mod loader (see below)
+- resolves numerous security issues.
 
 ## RCE Exploit Fix(es)
 The stock decoder had no destination-size parameter, so malicious compressed input could make it continue writing beyond the receiving buffer.
