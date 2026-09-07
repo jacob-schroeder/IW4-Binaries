@@ -1,5 +1,5 @@
 # Multiplayer Patch
-> Version 2.3
+> Version 2.3.1
 
 This default_mp.self is a modified version of TU 1.14.
 
@@ -43,6 +43,8 @@ This release includes several rounds of protection against malicious network tra
 - **More robust network handling.** Added checks for malformed scoreboard entries, invalid relay destinations, oversized queued packets, and invalid message acknowledgments.
 - **Protection against forced match disruption.** Non-host players cannot abuse the patched end-match menu actions or force an active host onto the host-migration screen.
 - **Compatibility preserved.** Weapon validation follows the current weapon registry, including custom weapons. The migration fix retains the existing path for genuine host handoffs.
+- **Host Freezes.** r_fullbright dvar access blocked.
+- **Name Spoofing.** Hosts will not be able to rename you on client facing screens.
 
 CFW and HEN releases are available for all seven supported regions.
 
