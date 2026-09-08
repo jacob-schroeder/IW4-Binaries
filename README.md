@@ -1,5 +1,5 @@
 # Multiplayer Patch
-> Version 2.3.1
+> Version 2.3.3
 
 This default_mp.self is a modified version of TU 1.14.
 
@@ -32,6 +32,10 @@ An example setup would look like:
 ```
 
 Then you can load the map with either a modified menuDef asset (see IW4Studio) or by setDvar ui_mapname "mp_shipment_xmas".
+
+## Quality of Life fixes
+- Fixed a memory leak in native 1.14 matchmaking for long sessions.
+- Increased allocation for larger gsc scripts patches.
 
 ## Security fixes — player summary
 
