@@ -1,5 +1,5 @@
 # Multiplayer Patch
-> Version 2.3.4
+> Version 2.4.0
 
 This default_mp.self is a modified version of TU 1.14.
 
@@ -19,20 +19,8 @@ This default_mp.self is a modified version of TU 1.14.
 - resolves numerous security issues.
 
 ## Mod Loader
-This is still a work in progress but I wanted a way to automatically load custom user maps (or any fastfile really).
-
-The binary checks it's executing directory for a "mods" folder (all lowercase).
-
-Any user map fastfile/imagefile located in that directory can be loaded from the game engine.
-
-An example setup would look like:
-```
-/dev_hdd0/game/BLUS30377/usdir/mods/imagefile7.pak
-/dev_hdd0/game/BLUS30377/usdir/mods/mp_shipment_xmas.ff
-/dev_hdd0/game/BLUS30377/usdir/mods/mp_shipment_xmas_load.ff
-```
-
-Then you can load the map with either a modified menuDef asset (see IW4Studio) or by setDvar ui_mapname "mp_shipment_xmas".
+Now supports custom maps via a "mods" folder in your game update directory.
+For more information see: https://github.com/jacob-schroeder/IW4-Custom-Maps
 
 ## Quality of Life fixes
 - Fixed a memory leak in native 1.14 matchmaking for long sessions.
