@@ -13,6 +13,7 @@ This default_mp.self is a modified version of TU 1.14.
 ## Features
 - Supports online play
 - Native .gsc parsing, linking and compilation
+- supports region unlocked fastfiles
 - resolves a bug where PSN accounts created after or changed after 2018 were not syncing stats with the Activision DemonWare server.
 - supports mod loader (see below)
 - resolves numerous security issues.
