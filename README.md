@@ -1,5 +1,5 @@
 # Multiplayer Patch
-> Version 2.4.0
+> Version 2.4.1
 
 This default_mp.self is a modified version of TU 1.14.
 
@@ -15,6 +15,7 @@ This default_mp.self is a modified version of TU 1.14.
 - Native .gsc parsing, linking and compilation
 - supports region unlocked fastfiles
 - resolves a bug where PSN accounts created after or changed after 2018 were not syncing stats with the Activision DemonWare server.
+- Reintroduced peephole optimizer for vm bytecode.
 - supports mod loader (see below)
 - resolves numerous security issues.
 
