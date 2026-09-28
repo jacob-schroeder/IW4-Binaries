@@ -1,5 +1,5 @@
 # Multiplayer Patch
-> Version 2.4.1
+> Version 2.4.2
 
 This default_mp.self is a modified version of TU 1.14.
 
@@ -22,6 +22,8 @@ This default_mp.self is a modified version of TU 1.14.
 ## Mod Loader
 Now supports custom maps via a "mods" folder in your game update directory.
 For more information see: https://github.com/jacob-schroeder/IW4-Custom-Maps
+
+For streamed sounds, Mod Loader uses FileIndex `-1` to select `{mapname}_snd.pak`, alongside the image package `{mapname}.pak` (with a trailing `_load` removed from the map name).
 
 ## Quality of Life fixes
 - Fixed a memory leak in native 1.14 matchmaking for long sessions.
