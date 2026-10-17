@@ -1,5 +1,5 @@
 # Multiplayer Patch
-> Version 2.4.2
+> Version 2.5.0
 
 This default_mp.self is a modified version of TU 1.14.
 
@@ -26,6 +26,7 @@ For more information see: https://github.com/jacob-schroeder/IW4-Custom-Maps
 For streamed sounds, Mod Loader uses FileIndex `-1` to select `{mapname}_snd.pak`, alongside the image package `{mapname}.pak` (with a trailing `_load` removed from the map name).
 
 ## Quality of Life fixes
+- Optional movement depatches: `g_bounce 1` enables bounces; `g_elevators 1` enables Normal elevators. Set either to `0` for stock behavior.
 - Fixed a memory leak in native 1.14 matchmaking for long sessions.
 - Increased allocation for larger gsc scripts patches.
 
