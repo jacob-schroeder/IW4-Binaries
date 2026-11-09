@@ -1,5 +1,5 @@
 # Multiplayer Patch
-> Version 2.5.1
+> Version 2.5.2
 
 This default_mp.self is a modified version of TU 1.14.
 
@@ -29,6 +29,7 @@ For streamed sounds, Mod Loader uses FileIndex `-1` to select `{mapname}_snd.pak
 - Optional movement depatches: `g_bounce 1` enables bounces; `g_elevators 1` enables Normal elevators. Set either to `0` for stock behavior.
 - Fixed a memory leak in native 1.14 matchmaking for long sessions.
 - Increased allocation for larger gsc scripts patches.
+- Stock weapons retain their stock ammo and clip indexes when custom weapons are loaded.
 
 ## Security fixes — player summary
 
