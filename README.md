@@ -1,7 +1,13 @@
 # Multiplayer Patch
-> Version 2.5.2
+> Version 2.5.3
 
 This default_mp.self is a modified version of TU 1.14.
+
+## Changes in 2.5.3
+
+- Added 3 MiB of free main PMem headroom, measured on Estate.
+- Added garbage collection for unlocalized HUD text.
+- Updated the Content catalog and downloads to cdn.iw4studio.org.
 
 ## How to use
 - Navigate to the release folder and select your region.
