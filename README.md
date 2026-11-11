@@ -1,7 +1,14 @@
 # Multiplayer Patch
-> Version 2.5.3
+> Version 2.5.4
 
 This default_mp.self is a modified version of TU 1.14.
+
+## Changes in 2.5.4
+
+- Reduced the executable's permanent writable-memory reservation by 64 KiB.
+- Allocates Content's catalog and download workspace only when Content is opened.
+- Releases that workspace when Content closes or before the automatic restart after installing a package.
+- Use the matching 2.5.4 `patch_mp.ff` so closing Content releases its workspace.
 
 ## Changes in 2.5.3
 
