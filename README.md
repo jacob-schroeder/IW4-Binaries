@@ -1,7 +1,12 @@
 # Multiplayer Patch
-> Version 2.5.5
+> Version 2.5.6
 
 This default_mp.self is a modified version of TU 1.14.
+
+## Changes in 2.5.6
+
+- Adds 9.5 MiB of free main PMem headroom through a guarded reduction in server-history allocation, measured on Estate.
+- Increases `loaded_sound` capacity from 1,350 to 2,048 with enlarged backing storage, adding 64 KiB to the executable's mapped-memory budget.
 
 ## Changes in 2.5.5
 
