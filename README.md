@@ -1,7 +1,15 @@
 # Multiplayer Patch
-> Version 2.5.4
+> Version 2.5.5
 
 This default_mp.self is a modified version of TU 1.14.
+
+## Changes in 2.5.5
+
+- Reuses archive workspace for script parsing, removing a separate 1 MiB allocation from main PMem.
+- Requests 1 MiB less system memory for the main PMem arena at startup.
+- Fixed unlocalized HUD and `setText` lifecycle handling across Fast Restart, including missing Obsidian menu text. Existing text overflow protections remain in place.
+- Added targeted guards for malformed inline-image text that caused known freezes.
+- A host using custom GSC now ends the match instead of sending incompatible script state during outgoing host migration. Stock GSC migration follows its normal path.
 
 ## Changes in 2.5.4
 
@@ -53,11 +61,11 @@ This release includes several rounds of protection against malicious network tra
 - **Safer text and menus.** Oversized messages, translations, vote text, and disconnect notices can no longer overrun the buffers covered by these fixes.
 - **More robust network handling.** Added checks for malformed scoreboard entries, invalid relay destinations, oversized queued packets, and invalid message acknowledgments.
 - **Protection against forced match disruption.** Non-host players cannot abuse the patched end-match menu actions or force an active host onto the host-migration screen.
-- **Compatibility preserved.** Weapon validation follows the current weapon registry, including custom weapons. The migration fix retains the existing path for genuine host handoffs.
+- **Compatibility preserved.** Weapon validation follows the current weapon registry, including custom weapons. Stock GSC host migration retains its normal path; outgoing migration from a custom GSC host ends the match.
 - **Host Freezes.** r_fullbright dvar access blocked.
 - **Name Spoofing.** Hosts will not be able to rename you on client facing screens.
 
-CFW and HEN releases are available for all seven supported regions.
+Compressed CFW and HEN releases are available for all seven supported regions.
 
 ## Technical analysis — developers and reverse engineers
 
