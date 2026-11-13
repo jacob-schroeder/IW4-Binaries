@@ -1,7 +1,11 @@
 # Multiplayer Patch
-> Version 2.5.6
+> Version 2.5.7
 
 This default_mp.self is a modified version of TU 1.14.
+
+## Changes in 2.5.7
+
+- Allows stock map weapons, including the mounted minigun, to use their stock ammo and clip groups on custom maps by reserving those groups separately from custom weapons. Custom maps do not need a map-name whitelist.
 
 ## Changes in 2.5.6
 
