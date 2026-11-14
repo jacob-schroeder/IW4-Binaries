@@ -6,6 +6,7 @@ This default_mp.self is a modified version of TU 1.14.
 ## Changes in 2.5.8
 
 - added support for custom map ui fastfiles
+- allows specifying of custom factions on maps
 
 ## Changes in 2.5.7
 
