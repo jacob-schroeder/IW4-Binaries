@@ -1,7 +1,11 @@
 # Multiplayer Patch
-> Version 2.5.7
+> Version 2.5.8
 
 This default_mp.self is a modified version of TU 1.14.
+
+## Changes in 2.5.8
+
+- added support for custom map ui fastfiles
 
 ## Changes in 2.5.7
 
