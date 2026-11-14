@@ -1,7 +1,15 @@
 # Multiplayer Patch
-> Version 2.5.8
+> Version 2.6.0
 
 This default_mp.self is a modified version of TU 1.14.
+
+## Changes in 2.6.0
+
+- Embeds the Content and Custom Maps menus in the executable, removing their dependency on a matching `patch_mp.ff`.
+- Adds a NEW indicator next to Content when the catalog contains uninstalled packages.
+- Shows the selected package's PNG/JPEG thumbnail in the details pane. Previews are capped at 256×144, loaded on demand, and released when selection changes or Content closes.
+- Improves Content descriptions with smaller text and wrapping for long slash-separated text.
+- Returns another 1 MiB from the main PMem reservation to system memory to accommodate the single 1 MiB preview workspace.
 
 ## Changes in 2.5.8
 
