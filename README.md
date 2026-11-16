@@ -6,6 +6,7 @@ This default_mp.self is a modified version of TU 1.14.
 ## Changes in 2.6.1
 
 - Added support for custom weapons in packages
+- Matches the Primary and Secondary Custom weapon selectors to the active menu style.
 
 ## Changes in 2.6.0
 
