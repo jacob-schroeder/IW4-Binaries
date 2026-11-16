@@ -1,7 +1,11 @@
 # Multiplayer Patch
-> Version 2.6.0
+> Version 2.6.1
 
 This default_mp.self is a modified version of TU 1.14.
+
+## Changes in 2.6.1
+
+- Added support for custom weapons in packages
 
 ## Changes in 2.6.0
 
