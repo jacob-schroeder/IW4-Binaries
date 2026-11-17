@@ -1,7 +1,11 @@
 # Multiplayer Patch
-> Version 2.6.1
+> Version 2.6.2
 
 This default_mp.self is a modified version of TU 1.14.
+
+## Changes in 2.6.2
+
+- Updated content UI + added logging on failed downloads
 
 ## Changes in 2.6.1
 
