@@ -1,5 +1,9 @@
 # Changelog
 
+## Changes in 2.6.4
+
+- Added support for hotswapping patches
+
 ## Changes in 2.6.3
 
 - Simplified the Content restart message.
