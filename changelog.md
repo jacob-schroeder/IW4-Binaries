@@ -1,5 +1,11 @@
 # Changelog
 
+## Changes in 2.6.6
+
+- Renamed **Patches & Weapons** to **Patches**. **Stock weapons** and **Custom weapons** appear first. A gradient divider separates them from **Default** and installed patches.
+- Fixed the **Content** scrollbar so the thumb stands out from the track when the list needs scrolling.
+- With `developer 1`, supported GSC parser errors show the script file, line, and byte column, plus a source excerpt with a caret marking the error.
+
 ## Changes in 2.6.5
 
 - **Stock weapons** is now the default. It uses the original player stats format so patched and unmodified players can pass the stat checksum check when either player hosts.
