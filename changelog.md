@@ -1,5 +1,11 @@
 # Changelog
 
+## Changes in 2.6.5
+
+- **Stock weapons** is now the default. It uses the original player stats format so patched and unmodified players can pass the stat checksum check when either player hosts.
+- To enable custom weapons, open **PATCHES** from the multiplayer main menu, select **Custom weapons**, then choose **Apply**. Multiplayer restarts. Select **Stock weapons** and apply to switch back.
+- When switching online weapon modes, the game saves each custom class weapon and its stock replacement locally for that account. Rank and XP use the normal online profile. Offline classes saved with custom weapons require Custom weapons mode.
+
 ## Changes in 2.6.4
 
 - Added support for hotswapping patches
